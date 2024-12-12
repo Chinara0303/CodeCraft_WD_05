@@ -1,0 +1,43 @@
+.main{
+    text-align: center;
+    color: white;
+    padding: 4rem;
+    .input-area{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 20%;
+        margin: auto;
+        height: 30px;
+        border-radius:5px ;
+        padding: 3px;
+        input,button{
+            outline: none;
+            border: none;
+            background-color: transparent;
+            height: 100%;
+        }
+        input{
+            width: 80%;
+            color: black;
+            &::placeholder{
+                color: black;
+            }
+        }
+        button{
+            width: 20%;
+            cursor: pointer;
+        }
+    }
+   
+    .error{
+        color: red;
+
+    }
+}
+body{
+    background-image: url('../../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
